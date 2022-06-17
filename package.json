@@ -1,0 +1,64 @@
+{
+  "name": "hirelamp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node App.vue"
+  },
+  "dependencies": {
+    "@meforma/vue-toaster": "^1.3.0",
+    "@vuelidate/core": "^2.0.0-alpha.41",
+    "@vuelidate/validators": "^2.0.0-alpha.29",
+    "autoprefixer": "^9.8.8",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.6.5",
+    "express": "^4.17.3",
+    "firebase": "^9.8.1",
+    "hooper": "^0.3.4",
+    "postcss": "^7.0.39",
+    "stylus": "^0.57.0",
+    "stylus-loader": "^3.0.2",
+    "vue": "^3.0.0",
+    "vue-carousel": "^0.18.0",
+    "vue-my-toasts": "^2.0.1",
+    "vue-router": "^4.0.14",
+    "vue-toast-notification": "^3.0.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-carousel": "^0.1.40",
+    "vuelidate": "^0.7.7",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
