@@ -301,7 +301,7 @@ export default {
       };
       axios
         .post(
-          "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/mentees/",
+          "https://hirelamp.herokuapp.com/mentees/",
           user
         )
         .then(() => {

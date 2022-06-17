@@ -125,7 +125,7 @@ export default {
   methods: {
     newsletterPost() {
       axios.post(
-        "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/welcome/",
+        "https://hirelamp.herokuapp.com/welcome/",
         {
           email: this.$refs.email_newsletter.value,
         }
@@ -142,7 +142,7 @@ export default {
 
     mentorRequest() {
       axios.post(
-        "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/futureMentors/",
+        "https://hirelamp.herokuapp.com/futureMentors/",
         {
           linkedinURL: this.$refs.mentor_newsletter.value,
         }

@@ -325,7 +325,7 @@ export default {
 
       axios
         .get(
-          "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/expert/profile/" +
+          "https://hirelamp.herokuapp.com/expert/profile/" +
             str
         )
         .then((response) => {
@@ -338,17 +338,7 @@ export default {
           this.mentorData.tags = this.newMentorTags;
           console.log(this.mentorData);
 
-          // let temp_tags = [];
-          // // let j = 0;
-          // let temp_str = "";
-          // for (const char in response.data.tags) {
-          //   while (response.data.tags[char] !== ",") {
-          //     temp_str = temp_str + response.data.tags[char];
-          //   }
-          //   temp_str = "";
-          //   temp_tags.push(temp_str);
-          //   console.log(temp_tags);
-          // }
+
         });
     },
 
@@ -375,7 +365,7 @@ export default {
         console.log(formData);
 
         await axios.post(
-          "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/contactForm/",
+          "https://hirelamp.herokuapp.com/contactForm/",
           formData,
           {
             headers: {

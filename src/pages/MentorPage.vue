@@ -98,7 +98,7 @@ export default {
     async getMentorDatas() {
       axios
         .get(
-          "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/experts/"
+          "https://hirelamp.herokuapp.com/experts/"
         )
         .then((response) => {
           console.log(response);
@@ -113,7 +113,7 @@ export default {
     async mentorDetails(mentorId) {
       axios
         .get(
-          "https://2d13ac092947-hirelamp-bbcf628a86ebae0f2646300d98508d5.co/expert/profile/" +
+          "https://hirelamp.herokuapp.com/expert/profile/" +
             mentorId +
             "/"
         )
